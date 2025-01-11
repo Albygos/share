@@ -45,6 +45,24 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 ShareClip is a secure and easy-to-use platform for sharing text and images temporarily.
               </p>
             </div>
+ <div>
+              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">TOOLS</h3>
+              <ul className="mt-4 space-y-4">
+                <li>
+                  <Link to="/image-share" className="text-base text-gray-500 hover:text-gray-900">
+                   Image share online
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/privacy-policy" className="text-base text-gray-500 hover:text-gray-900">
+                    Privacy Policy
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+
+            
             <div>
               <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Quick Links</h3>
               <ul className="mt-4 space-y-4">
@@ -60,6 +78,31 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 </li>
               </ul>
             </div>
+
+
+            <div>
+              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">About</h3>
+              <p className="mt-4 text-base text-gray-500">
+                ShareClip is a secure and easy-to-use platform for sharing text and images temporarily.
+              </p>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Quick Links</h3>
+              <ul className="mt-4 space-y-4">
+                <li>
+                  <Link to="/terms" className="text-base text-gray-500 hover:text-gray-900">
+                    Terms of Service
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/privacy-policy" className="text-base text-gray-500 hover:text-gray-900">
+                    Privacy Policy
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            
             <div>
               <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase">Support</h3>
               <ul className="mt-4 space-y-4">
