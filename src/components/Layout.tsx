@@ -53,11 +53,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                    Image share online
                   </Link>
                 </li>
-                <li>
-                  <Link to="/privacy-policy" className="text-base text-gray-500 hover:text-gray-900">
-                    Privacy Policy
-                  </Link>
-                </li>
+               
               </ul>
             </div>
 
